@@ -16,6 +16,7 @@ This is one very long paragraph that definitely exceeds our 100 character limit 
 
 
 splitter1 = CharacterTextSplitter(
+    #this is just for setting the priority about the sepration of the paragraph  or etc..
     separator=" ",  # Default separator. Other options include ["\n\n", "\n", ". ", " ", ""]
     chunk_size=100,
     chunk_overlap=0
